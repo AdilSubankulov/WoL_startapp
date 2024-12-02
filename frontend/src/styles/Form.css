@@ -1,0 +1,86 @@
+.body-first-page{
+  display: flex;
+  background-color: #fda900;
+  margin: 30px;
+  width: auto;
+}
+.first-page-container{
+  display: flex;
+  padding: 7%;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+.login-btn-container{
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items:start;
+}
+.welcome-text{
+  padding-bottom: 30px;
+  font-family: Port Lligat Slab;
+  font-size: 400%;
+  font-weight: 650;
+  color: #FFFFFF;
+  padding-bottom: 55%;
+  width: 100%;
+}
+.login-btn{
+  font-family: Port Lligat Slab;
+  font-size: 100%;
+  font-weight: 500;
+  width: 50%;
+  padding: 13px;
+  margin: 20px 0;
+  background-color: #FFFFFF;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.form-input-h1{
+  font-family: Port Lligat Slab;
+  font-size: 280%;
+  color: #494F57;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 15px auto;
+    padding: 20px;
+    padding-left: 100px;
+    border-radius: 80px 0px 0px 80px ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 400px;
+    min-height: 400px;
+  }
+  .form-input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-btn-container{
+    display: flex;
+    justify-content: end;
+    width: 90%;
+  }
+  .form-button {
+    width: 30%;
+    padding: 13px;
+    margin: 20px 0;
+    background-color: #ffb41e;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .form-button:hover {
+    background-color: #ffaa00;
+  }
